@@ -28,5 +28,5 @@ Inspired by a lot of awesome list out there.
 
 *Scripts, modules and other resources*
 
-[CSV to RPZ](https://github.com/seefor/random-scripts/tree/main/csv_to_rpz_import) - This will create an RPZ CSV file from a list of Domains in a file so you can import into NIOS
-[NIOS CSV Import](https://github.com/frankhecker/infoblox-public/tree/main/nios/csv_scripts) - This is script will help you import a CSV into NIOS and check in real time while it uploads.
+* [CSV to RPZ](https://github.com/seefor/random-scripts/tree/main/csv_to_rpz_import) - This will create an RPZ CSV file from a list of Domains in a file so you can import into NIOS
+* [NIOS CSV Import](https://github.com/frankhecker/infoblox-public/tree/main/nios/csv_scripts) - This is script will help you import a CSV into NIOS and check in real time while it uploads.
