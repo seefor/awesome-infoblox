@@ -43,4 +43,4 @@ Inspired by a lot of awesome list out there.
 * [Infoblox Community](https://community.infoblox.com/t5/Network-Automation/ct-p/NetworkAutomation) - Infoblox Public Community site
 * [Getting Started with 5 CCS scripts](https://community.infoblox.com/t5/How-to-Articles/5-CCS-Scripts-to-Jump-Start-Your-NetMRI-CCS-Training/ba-p/11982) - This is will get you started with Scripting language - Files can be found [here](https://community.infoblox.com/t5/Automation-Scripts/5-CCS-Scripts-to-Jump-Start-Your-NetMRI-CCS-Training/m-p/11972/highlight/true#M142)
 * [Python Script getting started blog](https://community.infoblox.com/t5/Community-Blog/5-Python-Scripts-to-get-you-started-in-NetMRI/ba-p/16305) - How to use Python in NetMRI - Video can be found [here](https://community.infoblox.com/t5/Tech-Videos/A-Python-Primer-for-NetMRI-Webinar-Archive/ba-p/13956)
-* [Public REPO of scripts, policies, etc..](https://github.com/infobloxopen/netmri-toolkit)
+* [Infoblox Public REPO of scripts, policies, etc..](https://github.com/infobloxopen/netmri-toolkit) - Also a public community on Discord
