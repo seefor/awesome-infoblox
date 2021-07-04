@@ -13,7 +13,7 @@ Credits to the tools to Vadim Pavlov, Chris Marrison, Sif Basch, Franck Hecker, 
 
 *Scripts, blogs and other resources*
 
-* [infoblox-utilities](https://github.com/infobloxopen/infoblox-utilities) - Enable discovery for networks and change networks from unmanaged to managed.
+* [infoblox-utilities](https://github.com/infobloxopen/infoblox-utilities) - Enable discovery for networks and change networks from unmanaged to managed. (Author: Infoblox Engineering)
 * [Infoblox Community](https://community.infoblox.com/t5/Network-Automation/ct-p/NetworkAutomation) - Infoblox Public Community site
 * [Getting Started with 5 CCS scripts](https://community.infoblox.com/t5/How-to-Articles/5-CCS-Scripts-to-Jump-Start-Your-NetMRI-CCS-Training/ba-p/11982) - This is will get you started with Scripting language - Files can be found [here](https://community.infoblox.com/t5/Automation-Scripts/5-CCS-Scripts-to-Jump-Start-Your-NetMRI-CCS-Training/m-p/11972/highlight/true#M142)
 * [Python Script getting started blog](https://community.infoblox.com/t5/Community-Blog/5-Python-Scripts-to-get-you-started-in-NetMRI/ba-p/16305) - How to use Python in NetMRI - Video can be found [here](https://community.infoblox.com/t5/Tech-Videos/A-Python-Primer-for-NetMRI-Webinar-Archive/ba-p/13956)
@@ -49,6 +49,8 @@ BloxOne Threat Defense integration with Fortinet and Palo Alto domain names and 
 * [NIOS Zero-Touch Provisioning with VMware](https://github.com/infobloxopen/vnios_ztp_vmware) - Zero touch deployment of Infoblox Grid on Vmware vsphere using Ansible (Author: Infoblox Engineering)
 * [VMware Autoscale](https://github.com/infobloxopen/vmware-autoscale) - Script to automatically scale up or down the Infoblox grid, hosted on a VMWare environmen,t based on DNS queries per second (Author: Infoblox Engineering)
 * [Openstack/Ansible Autoscale](https://github.com/infobloxopen/vnios-autoscale-ansible-openstack) - Autoscaling vNIOS on Openstack solution using ansible, is a combination of shell script and ansible playbook. (Author: Infoblox Engineering)
+* [Terraform Provider NIOS](https://github.com/infobloxopen/terraform-provider-infoblox) - Infoblox Provider for Terraform (Author: Infoblox Engineering)
+
 
 ## Generic
 
@@ -59,3 +61,4 @@ BloxOne Threat Defense integration with Fortinet and Palo Alto domain names and 
 * [ioc2rpz.gui](https://github.com/Homas/ioc2rpz.gui) - ioc2rpz.gui is a web interface for ioc2rpz. ioc2rzp is a custom DNS server which was built to automatically maintain and distribute RPZ feeds. You can watch a demo of ioc2rpz technology including ioc2rpz.gui on the following video. (Author: Vadim Pavlov)
 * [ioc2rpz.dc](https://github.com/Homas/ioc2rpz.dc) - Easily run ioc2rpz, ioc2rpz.gui on Docker with Docker Compose. ioc2rpz is shipped with preconfigured RPZ feeds based on open source threat intelligence (OSINT). (Author: Vadim Pavlov)
 * [DNSTools](https://github.com/johnneerdael/dnstools) - Some tools for DNS troubleshooting and testing. (Author: Infoblox Engineering)
+* [Generic REST API for Terraform}(https://maniuk.medium.com/terraform-rest-api-provider-425d92efb9b) - There is ‘swiss army knife’ provider for terraform by Mastercard. It allows to interact with any API. I successfully used to make up for missing Infoblox provider forwarding record resource. (Author: Irek Romaniuk)
