@@ -22,9 +22,9 @@ Credits to the tools to Vadim Pavlov, Chris Marrison, Sif Basch, Franck Hecker, 
 
 *Scripts, modules and other resources*
 
-* [python-bloxone](https://github.com/ccmarris/python-bloxone) - The Infoblox BloxOne suite of applications provides a RESTful API that is published using Swagger on [CSP](https://csp.infoblox.com/apidoc) along with other Infoblox APIs.
-* [BloxOne OPH Management](https://github.com/frankhecker/infoblox-public) - Mange and rename OPH for BloxOne
-* [BloxOne Ansible](https://github.com/johnneerdael/bloxone-ansible) - Infoblox Ansible Collection for BloxOne (infoblox.b1ddi_modules) allows you to interact with the BloxOne DDI through APIs.
+* [python-bloxone](https://github.com/ccmarris/python-bloxone) - The Infoblox BloxOne suite of applications provides a RESTful API that is published using Swagger on [CSP](https://csp.infoblox.com/apidoc) along with other Infoblox APIs. (Author: Chris Marrison)
+* [BloxOne OPH Management](https://github.com/frankhecker/infoblox-public) - Mange and rename OPH for BloxOne (Author: Franck Hecker)
+* [BloxOne Ansible](https://github.com/johnneerdael/bloxone-ansible) - Infoblox Ansible Collection for BloxOne (infoblox.b1ddi_modules) allows you to interact with the BloxOne DDI through APIs. (Author: Infoblox Engineering)
 
 ### Threat Defense
 * [Feed to CSP](https://github.com/njeanselme/feed-to-csp) - About
@@ -43,19 +43,19 @@ BloxOne Threat Defense integration with Fortinet and Palo Alto domain names and 
 
 * [CSV to RPZ](https://github.com/seefor/random-scripts/tree/main/csv_to_rpz_import) - This will create an RPZ CSV file from a list of Domains in a file so you can import into NIOS
 * [NIOS CSV Import](https://github.com/frankhecker/infoblox-public/tree/main/nios/csv_scripts) - This is script will help you import a CSV into NIOS and check in real time while it uploads.
-* [Infoblox Ansible Modules](https://github.com/johnneerdael/infoblox-ansible) - Infoblox Ansible Collection for vNIOS allows managing your NIOS objects through APIs. It, thus, enables the DNS and IPAM automation of VM workloads that are deployed across multiple platforms. The nios_modules collection provides modules and plugins for managing the networks, IP addresses, and DNS records in NIOS. 
-* [Swagger Documentation](https://github.com/johnneerdael/infoblox-swagger-wapi) - Swagger documentation for Infoblox grid REST APIs
-* [NIOS Zero-Touch Provisioning with Ansible](https://github.com/johnneerdael/nios-ztp-ansible) - Deploying Infoblox Grid( Grid Master and a Member) and doing initial configurations through Ansible on OpenStack.
-* [NIOS Zero-Touch Provisioning with VMware](https://github.com/johnneerdael/vnios_ztp_vmware) - Zero touch deployment of Infoblox Grid on Vmware vsphere using Ansible
-* [VMware Autoscale](https://github.com/johnneerdael/vmware-autoscale) - Script to automatically scale up or down the Infoblox grid, hosted on a VMWare environmen,t based on DNS queries per second
-* [Openstack/Ansible Autoscale](https://github.com/johnneerdael/vnios-autoscale-ansible-openstack) - Autoscaling vNIOS on Openstack solution using ansible, is a combination of shell script and ansible playbook.
+* [Infoblox Ansible Modules](https://github.com/infobloxopen/infoblox-ansible) - Infoblox Ansible Collection for vNIOS allows managing your NIOS objects through APIs. It, thus, enables the DNS and IPAM automation of VM workloads that are deployed across multiple platforms. The nios_modules collection provides modules and plugins for managing the networks, IP addresses, and DNS records in NIOS. (Author: Infoblox Engineering)
+* [Swagger Documentation](https://github.com/infobloxopen/infoblox-swagger-wapi) - Swagger documentation for Infoblox grid REST APIs (Author: Infoblox Engineering)
+* [NIOS Zero-Touch Provisioning with Ansible](https://github.com/infobloxopen/nios-ztp-ansible) - Deploying Infoblox Grid( Grid Master and a Member) and doing initial configurations through Ansible on OpenStack. (Author: Infoblox Engineering)
+* [NIOS Zero-Touch Provisioning with VMware](https://github.com/infobloxopen/vnios_ztp_vmware) - Zero touch deployment of Infoblox Grid on Vmware vsphere using Ansible (Author: Infoblox Engineering)
+* [VMware Autoscale](https://github.com/infobloxopen/vmware-autoscale) - Script to automatically scale up or down the Infoblox grid, hosted on a VMWare environmen,t based on DNS queries per second (Author: Infoblox Engineering)
+* [Openstack/Ansible Autoscale](https://github.com/infobloxopen/vnios-autoscale-ansible-openstack) - Autoscaling vNIOS on Openstack solution using ansible, is a combination of shell script and ansible playbook. (Author: Infoblox Engineering)
 
 ## Generic
 
 *Scripts and other resources
-* [Infoblox Public REPO of scripts, policies, etc..](https://github.com/johnneerdael/infoblox-public) - Infoblox-related scripts and applications for general use (Franck Hecker)
-* [RpiDNS](https://github.com/johnneerdael/RpiDNS) - RpiDNS - secure DNS for your home or office
-* [ioc2rpz](https://github.com/johnneerdael/ioc2rpz) - ioc2rpz is a custom DNS server which automatically converts indicators (e.g. malicious FQDNs, IPs) from various sources into RPZ feeds and automatically maintains/updates them.
-* [ioc2rpz.gui](https://github.com/johnneerdael/ioc2rpz.gui) - ioc2rpz.gui is a web interface for ioc2rpz. ioc2rzp is a custom DNS server which was built to automatically maintain and distribute RPZ feeds. You can watch a demo of ioc2rpz technology including ioc2rpz.gui on the following video.
-* [ioc2rpz.dc](https://github.com/johnneerdael/ioc2rpz.dc) - Easily run ioc2rpz, ioc2rpz.gui on Docker with Docker Compose. ioc2rpz is shipped with preconfigured RPZ feeds based on open source threat intelligence (OSINT).
-* [DNSTools](https://github.com/johnneerdael/dnstools) - Some tools for DNS troubleshooting and testing.
+* [Infoblox Public REPO of scripts, policies, etc..](https://github.com/franckhecker/infoblox-public) - Infoblox-related scripts and applications for general use (Author: Franck Hecker)
+* [RpiDNS](https://github.com/Homas/RpiDNS) - RpiDNS - secure DNS for your home or office (Author: Vadim Pavlov)
+* [ioc2rpz](https://github.com/Homas/ioc2rpz) - ioc2rpz is a custom DNS server which automatically converts indicators (e.g. malicious FQDNs, IPs) from various sources into RPZ feeds and automatically maintains/updates them. (Author: Vadim Pavlov)
+* [ioc2rpz.gui](https://github.com/Homas/ioc2rpz.gui) - ioc2rpz.gui is a web interface for ioc2rpz. ioc2rzp is a custom DNS server which was built to automatically maintain and distribute RPZ feeds. You can watch a demo of ioc2rpz technology including ioc2rpz.gui on the following video. (Author: Vadim Pavlov)
+* [ioc2rpz.dc](https://github.com/Homas/ioc2rpz.dc) - Easily run ioc2rpz, ioc2rpz.gui on Docker with Docker Compose. ioc2rpz is shipped with preconfigured RPZ feeds based on open source threat intelligence (OSINT). (Author: Vadim Pavlov)
+* [DNSTools](https://github.com/johnneerdael/dnstools) - Some tools for DNS troubleshooting and testing. (Author: Infoblox Engineering)
