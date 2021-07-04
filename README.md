@@ -33,8 +33,8 @@ BloxOne Threat Defense integration with Fortinet and Palo Alto domain names and 
 
 
 #### NIOS to B1DDI
-* [NIOS CSV to B1DDI](https://github.com/seefor/bloxone_ddi) - Migrate data from NIOS CSV Export to Bloxone DDI (Prefered - src: Sif Baksh)
-* [NIOS CSV to B1DDI](https://github.com/johnneerdael/csv2b1ddi) - Migrate data from NIOS CSV Export to Bloxone DDI (Secondary - src: John Neerdael
+* [NIOS CSV to B1DDI](https://github.com/seefor/bloxone_ddi) - Migrate data from NIOS CSV Export to Bloxone DDI - Best option (Author: Sif Baksh) 
+* [NIOS CSV to B1DDI](https://github.com/johnneerdael/csv2b1ddi) - Migrate data from NIOS CSV Export to Bloxone - Secondary option (Author: John Neerdael)
 
 
 ## NIOS
