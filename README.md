@@ -7,15 +7,12 @@ Credit to Sif Baksh for the original inception, John Neerdael has expanded on th
 
 
 ---
+### Threat Defense
+* [Feed to CSP](https://github.com/njeanselme/feed-to-csp) - About
+BloxOne Threat Defense integration with Fortinet and Palo Alto domain names and IPs brings an even wider IOC coverage by threat intelligence unification. Fortinet IOCs are enforced at DNS level globally on all DNS even for roaming users who have not established their VPN
+* [Map endpoints to endpoint_groups based on naming policy](https://github.com/njeanselme/botdc-endpoints-management) - map endpoints to endpoint_groups based on naming policy
+* [B1TD TIDE Data Feed](https://github.com/ccmarris/b1td_tide_data_feed) - Tool to easily create Threat feeds for third party solutions through Infoblox API's
 
-## Network Insight
-
-*Scripts, blogs and other resources*
-
-* [infoblox-utilities](https://github.com/infobloxopen/infoblox-utilities) - Enable discovery for networks and change networks from unmanaged to managed. (Author: Infoblox Engineering)
-* [Infoblox Community](https://community.infoblox.com/t5/Network-Automation/ct-p/NetworkAutomation) - Infoblox Public Community site
-* [Getting Started with 5 CCS scripts](https://community.infoblox.com/t5/How-to-Articles/5-CCS-Scripts-to-Jump-Start-Your-NetMRI-CCS-Training/ba-p/11982) - This is will get you started with Scripting language - Files can be found [here](https://community.infoblox.com/t5/Automation-Scripts/5-CCS-Scripts-to-Jump-Start-Your-NetMRI-CCS-Training/m-p/11972/highlight/true#M142)
-* [Python Script getting started blog](https://community.infoblox.com/t5/Community-Blog/5-Python-Scripts-to-get-you-started-in-NetMRI/ba-p/16305) - How to use Python in NetMRI - Video can be found [here](https://community.infoblox.com/t5/Tech-Videos/A-Python-Primer-for-NetMRI-Webinar-Archive/ba-p/13956)
 
 ## BloxOne
 
@@ -24,13 +21,7 @@ Credit to Sif Baksh for the original inception, John Neerdael has expanded on th
 * [python-bloxone](https://github.com/ccmarris/python-bloxone) - The Infoblox BloxOne suite of applications provides a RESTful API that is published using Swagger on [CSP](https://csp.infoblox.com/apidoc) along with other Infoblox APIs. (Author: Chris Marrison)
 * [BloxOne OPH Management](https://github.com/frankhecker/infoblox-public) - Mange and rename OPH for BloxOne (Author: Franck Hecker)
 * [BloxOne Ansible](https://github.com/johnneerdael/bloxone-ansible) - Infoblox Ansible Collection for BloxOne (infoblox.b1ddi_modules) allows you to interact with the BloxOne DDI through APIs. (Author: Infoblox Engineering)
-* [B1DDI Automation Demo](https://github.com/ccmarris/b1ddi-automation-demo) - This script is designed to provide a standard, simple way to demonstrate the power of automation with the Bloxone DDI platform and create a set of demo data for demonstration of the GUI. (Author: Chris Marrison)
-
-### Threat Defense
-* [Feed to CSP](https://github.com/njeanselme/feed-to-csp) - About
-BloxOne Threat Defense integration with Fortinet and Palo Alto domain names and IPs brings an even wider IOC coverage by threat intelligence unification. Fortinet IOCs are enforced at DNS level globally on all DNS even for roaming users who have not established their VPN
-* [Map endpoints to endpoint_groups based on naming policy](https://github.com/njeanselme/botdc-endpoints-management) - map endpoints to endpoint_groups based on naming policy
-* [B1TD TIDE Data Feed](https://github.com/ccmarris/b1td_tide_data_feed) - Tool to easily create Threat feeds for third party solutions through Infoblox API's
+* [B1DDI Automation Demo](https://github.com/ccmarris/b1ddi-automation-demo) - This script is designed to provide a standard, simple way to demonstrate the power of automation with the Bloxone DDI platform and create a set of demo data for demonstration of the GUI. (Author: Chris Marrison
 
 
 #### NIOS to B1DDI
@@ -53,14 +44,11 @@ BloxOne Threat Defense integration with Fortinet and Palo Alto domain names and 
 * [Terraform Provider NIOS](https://github.com/infobloxopen/terraform-provider-infoblox) - Infoblox Provider for Terraform (Author: Infoblox Engineering)
 
 
-## Generic
+## Network Insight
 
-*Scripts and other resources
-* [Infoblox Public REPO of scripts, policies, etc..](https://github.com/franckhecker/infoblox-public) - Infoblox-related scripts and applications for general use (Author: Franck Hecker)
-* [RpiDNS](https://github.com/Homas/RpiDNS) - RpiDNS - secure DNS for your home or office (Author: Vadim Pavlov)
-* [ioc2rpz](https://github.com/Homas/ioc2rpz) - ioc2rpz is a custom DNS server which automatically converts indicators (e.g. malicious FQDNs, IPs) from various sources into RPZ feeds and automatically maintains/updates them. (Author: Vadim Pavlov)
-* [ioc2rpz.gui](https://github.com/Homas/ioc2rpz.gui) - ioc2rpz.gui is a web interface for ioc2rpz. ioc2rzp is a custom DNS server which was built to automatically maintain and distribute RPZ feeds. You can watch a demo of ioc2rpz technology including ioc2rpz.gui on the following video. (Author: Vadim Pavlov)
-* [ioc2rpz.dc](https://github.com/Homas/ioc2rpz.dc) - Easily run ioc2rpz, ioc2rpz.gui on Docker with Docker Compose. ioc2rpz is shipped with preconfigured RPZ feeds based on open source threat intelligence (OSINT). (Author: Vadim Pavlov)
-* [DNSTools](https://github.com/johnneerdael/dnstools) - Some tools for DNS troubleshooting and testing. (Author: Infoblox Engineering)
-* [Generic REST API for Terraform](https://maniuk.medium.com/terraform-rest-api-provider-425d92efb9b) - There is ‘swiss army knife’ provider for terraform by Mastercard. It allows to interact with any API. I successfully used to make up for missing Infoblox provider forwarding record resource. (Author: Irek Romaniuk)
-* [Mastercard REST API Provider for Terraform](https://github.com/Mastercard/terraform-provider-restapi) - A terraform provider to manage objects in a RESTful API (Author: Mastercard)
+*Scripts, blogs and other resources*
+
+* [infoblox-utilities](https://github.com/infobloxopen/infoblox-utilities) - Enable discovery for networks and change networks from unmanaged to managed. (Author: Infoblox Engineering)
+* [Infoblox Community](https://community.infoblox.com/t5/Network-Automation/ct-p/NetworkAutomation) - Infoblox Public Community site
+* [Getting Started with 5 CCS scripts](https://community.infoblox.com/t5/How-to-Articles/5-CCS-Scripts-to-Jump-Start-Your-NetMRI-CCS-Training/ba-p/11982) - This is will get you started with Scripting language - Files can be found [here](https://community.infoblox.com/t5/Automation-Scripts/5-CCS-Scripts-to-Jump-Start-Your-NetMRI-CCS-Training/m-p/11972/highlight/true#M142)
+* [Python Script getting started blog](https://community.infoblox.com/t5/Community-Blog/5-Python-Scripts-to-get-you-started-in-NetMRI/ba-p/16305) - How to use Python in NetMRI - Video can be found [here](https://community.infoblox.com/t5/Tech-Videos/A-Python-Primer-for-NetMRI-Webinar-Archive/ba-p/13956)
