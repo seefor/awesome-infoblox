@@ -3,8 +3,7 @@
 A curated list of awesome Infoblox, libraries, software and resources.
 
 Inspired by a lot of awesome list out there.
-Credit to Sif Baksh for the original inception, moved more useful bits in the a single repository with auto syncing from masters.
-Credits to the tools to Vadim Pavlov, Chris Marrison, Sif Basch, Franck Hecker, ...
+Credit to Sif Baksh for the original inception, John Neerdael has expanded on the list and added more useful resources.
 
 
 ---
