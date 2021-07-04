@@ -24,11 +24,13 @@ Credit to Sif Baksh for the original inception, John Neerdael has expanded on th
 * [python-bloxone](https://github.com/ccmarris/python-bloxone) - The Infoblox BloxOne suite of applications provides a RESTful API that is published using Swagger on [CSP](https://csp.infoblox.com/apidoc) along with other Infoblox APIs. (Author: Chris Marrison)
 * [BloxOne OPH Management](https://github.com/frankhecker/infoblox-public) - Mange and rename OPH for BloxOne (Author: Franck Hecker)
 * [BloxOne Ansible](https://github.com/johnneerdael/bloxone-ansible) - Infoblox Ansible Collection for BloxOne (infoblox.b1ddi_modules) allows you to interact with the BloxOne DDI through APIs. (Author: Infoblox Engineering)
+* [B1DDI Automation Demo](https://github.com/ccmarris/b1ddi-automation-demo) - This script is designed to provide a standard, simple way to demonstrate the power of automation with the Bloxone DDI platform and create a set of demo data for demonstration of the GUI. (Author: Chris Marrison)
 
 ### Threat Defense
 * [Feed to CSP](https://github.com/njeanselme/feed-to-csp) - About
 BloxOne Threat Defense integration with Fortinet and Palo Alto domain names and IPs brings an even wider IOC coverage by threat intelligence unification. Fortinet IOCs are enforced at DNS level globally on all DNS even for roaming users who have not established their VPN
 * [Map endpoints to endpoint_groups based on naming policy](https://github.com/njeanselme/botdc-endpoints-management) - map endpoints to endpoint_groups based on naming policy
+* [B1TD TIDE Data Feed](https://github.com/ccmarris/b1td_tide_data_feed) - Tool to easily create Threat feeds for third party solutions through Infoblox API's
 
 
 #### NIOS to B1DDI
@@ -61,3 +63,4 @@ BloxOne Threat Defense integration with Fortinet and Palo Alto domain names and 
 * [ioc2rpz.dc](https://github.com/Homas/ioc2rpz.dc) - Easily run ioc2rpz, ioc2rpz.gui on Docker with Docker Compose. ioc2rpz is shipped with preconfigured RPZ feeds based on open source threat intelligence (OSINT). (Author: Vadim Pavlov)
 * [DNSTools](https://github.com/johnneerdael/dnstools) - Some tools for DNS troubleshooting and testing. (Author: Infoblox Engineering)
 * [Generic REST API for Terraform](https://maniuk.medium.com/terraform-rest-api-provider-425d92efb9b) - There is ‘swiss army knife’ provider for terraform by Mastercard. It allows to interact with any API. I successfully used to make up for missing Infoblox provider forwarding record resource. (Author: Irek Romaniuk)
+* [Mastercard REST API Provider for Terraform](https://github.com/Mastercard/terraform-provider-restapi) - A terraform provider to manage objects in a RESTful API (Author: Mastercard)
