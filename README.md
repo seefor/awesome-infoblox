@@ -12,16 +12,16 @@ Credit to Sif Baksh for the original inception, John Neerdael has expanded on th
 BloxOne Threat Defense integration with Fortinet and Palo Alto domain names and IPs brings an even wider IOC coverage by threat intelligence unification. Fortinet IOCs are enforced at DNS level globally on all DNS even for roaming users who have not established their VPN
 * [Map endpoints to endpoint_groups based on naming policy](https://github.com/njeanselme/botdc-endpoints-management) - map endpoints to endpoint_groups based on naming policy
 * [B1TD TIDE Data Feed](https://github.com/ccmarris/b1td_tide_data_feed) - Tool to easily create Threat feeds for third party solutions through Infoblox API's
-* [Infoblox Threat Intelligence] (https://splunkbase.splunk.com/app/4472/) - Splunk Add-on for Infoblox Intelligence allows to get threat intelligence from Infoblox Threat Intelligence Data Exchange / TIDE (hosts/IPs/URLs - depending on your BloxOne Threat Defense license) and network intelligence from networks in NIOS IPAM. 
+* [Infoblox Threat Intelligence](https://splunkbase.splunk.com/app/4472/) - Splunk Add-on for Infoblox Intelligence allows to get threat intelligence from Infoblox Threat Intelligence Data Exchange / TIDE (hosts/IPs/URLs - depending on your BloxOne Threat Defense license) and network intelligence from networks in NIOS IPAM. 
 It optionally allows to feed Splunk Entreprise Security (Splunk ES).
-* [Infoblox BloxOne Threat Defense] (https://splunkbase.splunk.com/app/4941/) - Splunk Add-on that
-* - acquire BloxOne Threat Defense Cloud logs using REST API
-* - filter it efficiently with full drill down support based on the time, threat property, threat class, source IP, domain name, query type 
-* - summarize hits by IOCs
-* - get IOCs context from Infoblox Dossier threat intelligence
-* - prioritize hits based on context
-* - search and pivot Threat Intelligence based on the IOCs matched in DNS traffic
-* - report on BloxOne endpoints deployment
+* [Infoblox BloxOne Threat Defense](https://splunkbase.splunk.com/app/4941/) - Splunk Add-on that
+ - acquire BloxOne Threat Defense Cloud logs using REST API
+ - filter it efficiently with full drill down support based on the time, threat property, threat class, source IP, domain name, query type 
+ - summarize hits by IOCs
+ - get IOCs context from Infoblox Dossier threat intelligence
+ - prioritize hits based on context
+ - search and pivot Threat Intelligence based on the IOCs matched in DNS traffic
+ - report on BloxOne endpoints deployment
 
 ## BloxOne
 
