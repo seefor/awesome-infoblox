@@ -15,13 +15,13 @@ BloxOne Threat Defense integration with Fortinet and Palo Alto domain names and 
 * [Infoblox Threat Intelligence](https://splunkbase.splunk.com/app/4472/) - Splunk Add-on for Infoblox Intelligence allows to get threat intelligence from Infoblox Threat Intelligence Data Exchange / TIDE (hosts/IPs/URLs - depending on your BloxOne Threat Defense license) and network intelligence from networks in NIOS IPAM. 
 It optionally allows to feed Splunk Entreprise Security (Splunk ES).
 * [Infoblox BloxOne Threat Defense](https://splunkbase.splunk.com/app/4941/) - Splunk Add-on that
- - acquire BloxOne Threat Defense Cloud logs using REST API
- - filter it efficiently with full drill down support based on the time, threat property, threat class, source IP, domain name, query type 
- - summarize hits by IOCs
- - get IOCs context from Infoblox Dossier threat intelligence
- - prioritize hits based on context
- - search and pivot Threat Intelligence based on the IOCs matched in DNS traffic
- - report on BloxOne endpoints deployment
+  * acquire BloxOne Threat Defense Cloud logs using REST API
+  * filter it efficiently with full drill down support based on the time, threat property, threat class, source IP, domain name, query type 
+  * summarize hits by IOCs
+  * get IOCs context from Infoblox Dossier threat intelligence
+  * prioritize hits based on context
+  * search and pivot Threat Intelligence based on the IOCs matched in DNS traffic
+  * report on BloxOne endpoints deployment
 
 ## BloxOne
 
