@@ -7,7 +7,7 @@ Credit to Sif Baksh for the original inception, John Neerdael has expanded on th
 
 
 ---
-### Threat Defense
+### BloxOne Threat Defense
 * [Feed to CSP](https://github.com/njeanselme/feed-to-csp) - About
 BloxOne Threat Defense integration with Fortinet and Palo Alto domain names and IPs brings an even wider IOC coverage by threat intelligence unification. Fortinet IOCs are enforced at DNS level globally on all DNS even for roaming users who have not established their VPN (Author: Nicolas Jeanselme)
 * [Map endpoints to endpoint_groups based on naming policy](https://github.com/njeanselme/botdc-endpoints-management) - map endpoints to endpoint_groups based on naming policy (Author: Nicolas Jeanselme)
@@ -23,7 +23,7 @@ It optionally allows to feed Splunk Entreprise Security (Splunk ES).(Author: Nic
   * search and pivot Threat Intelligence based on the IOCs matched in DNS traffic
   * report on BloxOne endpoints deployment
 
-## BloxOne
+## BloxOne DDI
 
 *Scripts, modules and other resources*
 
