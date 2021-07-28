@@ -22,6 +22,7 @@ It optionally allows to feed Splunk Entreprise Security (Splunk ES).(Author: Nic
   * prioritize hits based on context
   * search and pivot Threat Intelligence based on the IOCs matched in DNS traffic
   * report on BloxOne endpoints deployment
+* [DNS Query Source](https://github.com/ccmarris/dns-qsource) - Simple shell tool that uses a Google DNS application to determine the location of your DNS server (tests with your local configured DNS server and Google DNS), can be used to validate local internet breakout functionality of BloxOne Threat Defence if your local DNS server is BloxOne DDI and running a DNS Forwarding Proxy (ex. ./dns.sh <B1DDI+DFP IP>)
 
 ## BloxOne DDI
 
