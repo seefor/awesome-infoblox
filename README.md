@@ -7,6 +7,10 @@ Credit to Sif Baksh for the original inception, John Neerdael has expanded on th
 
 
 ---
+### BloxOne Platform
+* [B1 Platform Automation Demo](https://github.com/ccmarris/bloxone_automation_tools) - This script is designed to provide a standard, simple way to demonstrate the power of automation with the Bloxone DDI and TD platform and create a set of demo data for demonstration of the GUI as well as to quickly provision a BloxOne Threat Defense customer with policies configured acoording to Infoblox Best Practices (Author: Chris Marrison)
+
+
 ### BloxOne Threat Defense
 * [Feed to CSP](https://github.com/njeanselme/feed-to-csp) - About
 BloxOne Threat Defense integration with Fortinet and Palo Alto domain names and IPs brings an even wider IOC coverage by threat intelligence unification. Fortinet IOCs are enforced at DNS level globally on all DNS even for roaming users who have not established their VPN (Author: Nicolas Jeanselme)
@@ -32,7 +36,7 @@ It optionally allows to feed Splunk Entreprise Security (Splunk ES).(Author: Nic
 * [BloxOne OPH Management](https://github.com/frankhecker/infoblox-public) - Mange and rename OPH for BloxOne (Author: Franck Hecker)
 * [BloxOne Ansible](https://github.com/johnneerdael/bloxone-ansible) - Infoblox Ansible Collection for BloxOne (infoblox.b1ddi_modules) allows you to interact with the BloxOne DDI through APIs. (Author: Infoblox Engineering)
 * [B1DDI Automation Demo](https://github.com/ccmarris/b1ddi-automation-demo) - This script is designed to provide a standard, simple way to demonstrate the power of automation with the Bloxone DDI platform and create a set of demo data for demonstration of the GUI. (Author: Chris Marrison)
-
+* [DHCP Option Encoding] (https://github.com/ccmarris/dhcp_option_encoding) - Demonstration script for Hex Encoding/Decoding of DHCP Options using the dhcputils from the bloxone module to make sure DHCP options are correctly encoded for use in KEA.
 
 #### NIOS to B1DDI
 * [NIOS CSV to B1DDI](https://github.com/seefor/bloxone_ddi) - Migrate data from NIOS CSV Export to Bloxone DDI - Best option (Author: Sif Baksh) 
